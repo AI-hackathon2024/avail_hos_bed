@@ -18,7 +18,7 @@ function App() {
     setLoading(true);
     try {
       const response = await axios.get(
-        `http://apis.data.go.kr/B552657/ErmctInfoInqireService/getEmrrmRltmUsefulSckbdInfoInqire`,
+        `https://apis.data.go.kr/B552657/ErmctInfoInqireService/getEmrrmRltmUsefulSckbdInfoInqire`,
         {
           params: {
             STAGE1: stage1,
